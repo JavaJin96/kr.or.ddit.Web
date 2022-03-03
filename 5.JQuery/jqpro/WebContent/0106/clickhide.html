@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<script src="../js/jquery-3.6.0.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	$("h2").on("click", function(){
+		//this.style.display = "none"; Dom객체인 this
+		$(this).hide();
+		
+	})
+})
+
+
+proc1 = (vh2) => {
+	
+	$(vh2).hide();
+}
+
+</script>
+</head>
+<body>
+
+	<div class="box">
+		<h3></h3>
+		onclick=proc1(this)호출<br>
+		10개의 h2요소에 각각 onclick 이벤트를 설정 <br>
+		10개 중에 한번에 하나씩만 호출되어 실행된다.<br>
+		클릭한 객체를 this파라미터로가 함수로 전달된다.<br>
+		<div id="result1">
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.1</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.2</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.3</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.4</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.5</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.6</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.7</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.8</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.9</h2>
+			<h2 onclick="proc1(this)">클릭하면 사라집니다.10</h2>
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3></h3>
+		script에서 직접 onclick이벤트를 설정한다.<br>
+		<div id="result2">
+			<h2>클릭하면 사라집니다.1</h2>
+			<h2>클릭하면 사라집니다.2</h2>
+			<h2>클릭하면 사라집니다.3</h2>
+			<h2>클릭하면 사라집니다.4</h2>
+			<h2>클릭하면 사라집니다.5</h2>
+			<h2>클릭하면 사라집니다.6</h2>
+			<h2>클릭하면 사라집니다.7</h2>
+			<h2>클릭하면 사라집니다.8</h2>
+			<h2>클릭하면 사라집니다.9</h2>
+			<h2>클릭하면 사라집니다.10</h2>
+		</div>
+	</div>
+	
+
+</body>
+</html>

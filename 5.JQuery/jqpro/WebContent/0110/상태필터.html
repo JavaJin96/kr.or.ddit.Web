@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="http://192.168.135.12/jqpro/css/public.css">
+<script src="http://192.168.135.12/jqpro/js/jquery-3.6.0.min.js"></script>
+<script>
+$(function(){
+	$("#btn1").on("click", function(){
+		$("form *:enabled").css("border", "3px solid orange");
+		$("form *:disabled").css("border", "3px solid red");
+	})
+	
+	//$("input[type=password]") : 속성선택자
+	//$("input:password") : 폼선택자
+	$(":password").on("blur", function(){
+		// 입력한 값을 가져온다. jq에서는 val()메서드 사용한다.(js에서는 .value)
+		pvalue = $(this).val().trim();
+		//alert(pvalue);
+		
+		if(pvalue.length > 0){
+			// select의 disabled => enabled로 변경한다.
+			$("select").prop("disabled", false);
+		}
+		
+	})
+	
+	$("#btn2").on("click", function(){
+		//$("input[type=checkbox]:checked")
+		//$("input:checkbox:checked")
+		$(":checkbox:checked").each(function(i, v){
+			//chvalue = $(this).val();
+			chvalue = $(v).val();
+			alert(chvalue);			
+		})
+	})
+	
+	$("#btn3").on("click", function(){
+		$("#spring option:selected").each(function(){
+			selvalue = $(this).val();
+			alert(selvalue);
+		})
+	})
+})
+</script>
+</head>
+<body>
+
+	<div class="box">
+		<h3></h3>
+		password에서 커서가 벗어나면 select의 상태를 사용가능으로 변경한다. <br>
+		prop("disabled", false) : 사용가능<br>
+		prop("disabled", true) : 사용불가능<br>
+		<input type="button" value="확인" id="btn1" >
+	
+		<div id="result1">
+			<form> 
+				아이디 <input type="text" name="id" value="a001" ><br>
+				비밀번호 <input type="password" name="pass"><br>
+				
+				<br>
+				<select name="disSelect" disabled>
+     				<option>Option1</option>
+    				<option>Option2</option>
+      				<option>Option3</option>
+      				<option>Option4</option>
+				</select>
+				
+				<br><br>
+				<textarea name="enTextarea" rows=10 cols=20 >text</textarea><br>
+				<input type="button" value="확인" disabled onclick="alert('hello')"> <br>
+
+			</form>
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3></h3>
+		password에서 커서가 벗어나면 select의 상태를 사용가능으로 변경한다. <br>
+		prop("disabled", false) : 사용가능<br>
+		prop("disabled", true) : 사용불가능<br>
+		<input type="button" value="확인" id="btn2" >
+	
+		<div id="result2">
+			<form>
+				취 미 :
+ 				<input type="checkbox" name="hobby" value="여행" checked >여행
+				<input type="checkbox" name="hobby" value="장기">장기
+				<input type="checkbox" name="hobby" value="바둑">바둑
+				<input type="checkbox" name="hobby" value="독서" >독서
+				<input type="checkbox" name="hobby" value="낚시">낚시<br><br>
+			</form>
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3></h3>
+		password에서 커서가 벗어나면 select의 상태를 사용가능으로 변경한다. <br>
+		prop("disabled", false) : 사용가능<br>
+		prop("disabled", true) : 사용불가능<br>
+		<input type="button" value="확인" id="btn3" >
+	
+		<div id="result">
+			<form>
+				봄소식 : <select name="spring" id="spring" multiple size="6">
+					<option  >개나리</option>
+					<option selected>진달래</option>
+					<option>민들레</option>
+					<option selected>벚꽃</option>
+					<option>목련</option>
+					<option>철쭉</option>
+				</select>
+			</form>
+
+		</div>
+	</div>
+	
+</body>
+</html>

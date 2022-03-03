@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+   PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+   "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="board">
+	
+	
+	<!-- 전체리스트 가져오기 -->
+	<select id="selectBoard" resultClass="BoardVO">
+		select * from board1 order by num desc
+	</select>
+
+
+	<!-- 페이지별 리스트 가져오기 : 검색없음 -->
+	<select id="selectBoard2" resultClass="BoardVO" parameterClass="map">
+		<![CDATA[
+		select a.* 
+		  from (select rownum as rnum, 
+		               b.* 
+		          from ( select * 
+		                   from board1 
+		                  order by num desc) b 
+		          where rownum <= #end#) a
+		  where a.rnum >= #start#
+		]]>
+	</select>
+	
+	<select id="countBoard" resultClass="int">
+		select count(*) from board1
+	</select>
+	
+	<!-- //////////////////////////////////////////////////////////////// -->
+	
+	<!-- 페이지별 리스트 가져오기 : 검색있음 -->
+	<!-- 다른 sql문에서 공통으로 사용할 수 있는 문장 -->
+	<sql id="dynamicCondition">
+		<dynamic prepend="where">
+			<isNotEmpty property="stype" prepend=" and ">
+				<isNotEmpty property="sword">
+					$stype$ like '%'||#sword#||'%'
+				</isNotEmpty>
+			</isNotEmpty>
+		</dynamic>
+	</sql>
+	
+	<select id="selectBoard3" resultClass="BoardVO" parameterClass="map">
+		
+		select a.* 
+		  from (select rownum as rnum, 
+		               b.* 
+		          from ( select * 
+		                   from board1
+		                   <include refid="dynamicCondition"/> 
+		                  order by num desc) b 
+		<![CDATA[
+		          where rownum <= #end#) a
+		  where a.rnum >= #start#
+		]]>
+	</select>
+	
+	<select id="searchCount" parameterClass="map" resultClass="int">
+		select count(*) from board1 <include refid="dynamicCondition"/>
+	</select>
+	
+	<insert id="insertReply" parameterClass="ReplyVO">
+		insert into REPLY values 
+		(REPLY_RENUM_SEQ.nextval, #bonum#, #name#, #cont#, sysdate)
+		
+		<selectKey keyProperty="renum" resultClass="int">
+			select REPLY_RENUM_SEQ.currval from dual
+		</selectKey>
+		
+	</insert>
+	
+	<select id="listReply" parameterClass="int" resultClass="ReplyVO">
+		select * from REPLY where BONUM = #bonum#
+	</select>
+	
+	
+	<delete id="deleteReply" parameterClass="int">
+		delete from reply where renum = #data#
+	</delete>
+	
+	<update id="updateReply" parameterClass="ReplyVO">
+		update reply set cont = #cont# where renum = #renum#
+	</update>
+	
+
+
+
+</sqlMap>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

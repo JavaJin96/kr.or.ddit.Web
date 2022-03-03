@@ -1,0 +1,259 @@
+2021-12-20 09:46:04,559 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-21 09:05:25,273 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-22 09:03:57,694 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-23 09:02:56,307 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-23 17:41:40,929 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-24 09:03:08,280 [Worker-13: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-27 09:06:31,854 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-27 11:48:46,318 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-28 08:46:13,830 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-29 11:17:47,062 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-30 08:48:15,383 [Worker-10: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-30 12:36:38,904 [Worker-12: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-30 17:10:49,893 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-30 19:05:27,518 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-31 08:46:19,262 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-31 19:21:14,188 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-03 08:38:30,130 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-03 10:10:10,653 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-03 13:41:52,379 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-03 15:14:35,390 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-04 13:43:36,243 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-05 13:43:25,498 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-05 19:18:09,332 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-06 13:44:40,914 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-07 13:38:23,735 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-10 13:42:45,192 [Worker-11: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-11 13:42:40,860 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-11 14:04:51,448 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-12 13:46:00,173 [Worker-15: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-13 13:42:59,365 [Worker-10: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-14 13:42:34,610 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-17 13:42:41,260 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-18 09:24:23,083 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-18 13:43:25,067 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-18 15:11:32,608 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-18 17:13:46,137 [Worker-86: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-19 12:04:57,804 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-19 12:44:13,744 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-19 13:42:06,668 [Worker-51: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-20 09:16:00,449 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-20 13:42:27,129 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-20 13:52:43,550 [Worker-29: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-21 13:42:36,630 [Worker-10: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-21 17:20:27,340 [Worker-114: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-24 13:42:20,188 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-24 13:51:30,369 [Worker-26: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-24 17:57:15,800 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-25 13:41:53,002 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-25 13:49:31,285 [Worker-11: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-26 10:27:38,210 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-26 11:04:21,337 [Worker-11: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-26 13:53:42,940 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-26 13:58:15,992 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-26 17:08:11,190 [Worker-115: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-26 20:38:22,463 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-27 13:42:14,345 [Worker-10: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-27 13:50:59,748 [Worker-2: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-28 12:32:11,677 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-28 13:50:31,491 [Worker-48: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-01-28 18:28:05,407 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-03 09:52:09,798 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-03 10:25:43,651 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-03 13:56:44,452 [Worker-92: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.3.v20180609-1554.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2022-02-03 18:02:39,089 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-04 13:45:30,293 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-07 09:04:48,704 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-07 14:00:47,133 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-08 14:06:50,892 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-10 21:38:13,023 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

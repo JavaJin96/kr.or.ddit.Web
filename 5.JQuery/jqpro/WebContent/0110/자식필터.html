@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script>
+function proc1() {
+	$("li:first").css("background", "yellow").css("border", "3px solid red");
+
+	$("li:first-child").css("border", "3px solid red");
+}
+
+function proc2() {
+	//$("tr:first-child").css("background", "black").css("color", "white");
+	
+	$("td:first-child").css("background", "rgb(205,0,205)");
+	
+	$("td:nth-child(2)").css("background", "rgb(205,80,205)");
+	
+	$("td:last-child").css("background", "rgb(205,150,205)");
+	
+	$("tr:first-child td").css("background", "black").css("color", "white");
+}
+
+</script>
+<style>
+table{
+	border-collapse: collapse;
+	text-align: center;
+}
+td{
+	height : 30px;
+	width : 200px;
+}
+</style>
+</head>
+<body>
+
+	<div class="box">
+		<h3></h3>
+		<input type="button" value="확인" onclick="proc1()">
+	
+		<div id="result1">
+			<h2>여자에게 인기있는 남자</h2>
+			<ol>
+				<li>잘생긴 남자</li>
+				<li>능력있는 남자</li>
+				<li>돈 많은 남자</li>
+				<li>프로그래머</li>
+			</ol>
+			
+			<h2>남자에게 있기있는 여자</h2>
+			<ol>
+				<li>예쁜 여자</li>
+				<li>능력있는 여자</li>
+				<li>귀여운 여자</li>
+				<li>섹시한 여자</li>				
+			</ol>
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3></h3>
+		<input type="button" value="확인" onclick="proc2()">
+	
+		<div id="result2">
+			<table border=1>
+				<tr>
+					<td>이름</td>
+					<td>주소</td>
+					<td>전화번호</td>
+				</tr>
+				<tr>
+					<td>홍길동</td>
+					<td>대전</td>
+					<td>010-222-333</td>
+				</tr>
+				<tr>
+					<td>진달래</td>
+					<td>서울</td>
+					<td>010-444-555</td>
+				</tr>
+				<tr>
+					<td>개나리</td>
+					<td>부산</td>
+					<td>010-777-888</td>
+				</tr>
+				<tr>
+					<td>무궁화</td>
+					<td>대구</td>
+					<td>010-555-999</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<style>
+	p{
+		color : green;
+	}
+</style>
+<script>
+count = 0;
+
+function change(){
+	// p태그를 검색한다.
+	count++;
+	ptag = document.getElementsByTagName("p")[0];
+	
+	cr = parseInt(Math.random() * 256);
+	cg = parseInt(Math.random() * 256);
+	cb = parseInt(Math.random() * 256);
+	
+	
+	
+	
+	//ptag.style.color = "rgb(" + cr + "," + cg + "," + cb + ")";
+	ptag.style.color = `rgb( ${cr} , ${cg}, ${cb} )`;
+}
+
+function backcolor(){
+	// p태그를 검색한다.
+	ptag = document.getElementsByTagName("p")[0];
+	
+	cr = parseInt(Math.random() * 256);
+	cg = parseInt(Math.random() * 256);
+	cb = parseInt(Math.random() * 256);
+	
+	
+	ptag.style.background = `rgb( ${cr} , ${cg}, ${cb} )`;
+	
+}
+
+function count(){
+	count += 1;
+	res = count;
+		
+	document.getElementsById("c1").textContent = res;
+
+}
+
+</script>
+</head>
+<body>
+	<div class="box">
+		<h3>템플릿 리터럴</h3>
+		- 백틱기호를 이용하여 문자열을 구성한다. <br>
+		- 일반문자열과 변수값을 "", + 기호없이 구성한다. <br>
+		- 변수값은 ${} 로 표현한다. 
+		<p onclick="backcolor()"> 무궁화 꽃이 피었습니다. </p>
+		<input type="button" value="확인" onclick="count()">
+		count();
+		<input type="text">
+		<div id="c1"></div>
+	</div>
+</body>
+</html>

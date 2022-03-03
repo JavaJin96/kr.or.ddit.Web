@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wst.html.ui.internal.preferences.ui.HTMLTemplatePreferencePage$HTMLEditTemplateDialog_dialogBounds">
+		<item value="1001" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="666" key="DIALOG_HEIGHT"/>
+		<item value="-346" key="DIALOG_X_ORIGIN"/>
+		<item value="107" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="zip" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="zip"/>
+			<item value="result2"/>
+			<item value="l"/>
+			<item value="1"/>
+			<item value="splice"/>
+			<item value="overflow"/>
+			<item value="shortcut"/>
+			<item value="stylesheet"/>
+		</list>
+		<list key="replacehistory">
+			<item value="1"/>
+			<item value="l"/>
+			<item value="label"/>
+		</list>
+	</section>
+</section>

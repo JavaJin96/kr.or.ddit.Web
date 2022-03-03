@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>win Main</title>
+<link rel="stylesheet" href="../css/public.css">
+
+<script>
+
+proc1 = () => {
+	
+	win = window.open("winsub.html","윈도우서브", "width=300 height=400");
+	
+	win.moveTo(200, 200);
+}
+
+</script>
+
+</head>
+<body>
+
+	<div class="box">
+		<h3>win Main</h3>
+		<input type="button" value="확인" onclick="proc1()">
+	
+		<div id="result1"></div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>제목연습</title>
+	  
+	  <style>
+		table{
+			border : 5px outset gray;
+			border-collapse : collapse; 
+			margin-top : 100px;
+			margin-left : 20%;
+		}
+		
+		
+		td{
+			width : 300px; 
+			height : 50px; 
+			text-align : center;
+			font-size : 1.5em;
+		}
+		
+		th{
+			height : 70px;
+			font-size : 2.0em;
+			//background : lightblue;
+		}
+		
+		#table1{
+			border : 3px solid green;
+		}
+		
+		#table3{
+			border : 5px solid gray;
+			border-collapse : separate; 
+			margin-right : 200px;
+			margin-bottom : 500px;
+			font-size : 0.8em;
+		}
+		
+		#tab3tr{
+			background : black;
+			color : white;
+		}
+		
+		#tab3th{
+			width : 1000px;
+		}
+		
+		<! width : 가로길이 / height : 세로길이>
+		<! margin_top , margin_left, margin_right, margin-bottom : 여백>
+		<!separate : 테두리 두줄, collapse : 테두리 한줄>
+		<! td에 따로 별칭을 주고 해도 되지만, 테이블전체의 별칭 tab3에서 한칸띄고 td를 입력해도 된다.
+		   ex. tab3 td{}>
+	  </style>
+	</head>
+	
+	<body>
+		
+		<table id="table1" border="1">
+		<!inset, outset : 좌 상단 / 우 하단 
+			border-top-width-left-right
+			border-width
+			border-style
+			border-color>
+			
+			
+			<tr>
+				<td>홍길동</td>
+				<td>대전</td>
+			</tr>
+			
+			<tr>
+				<td>개나리</td>
+				<td>서울</td>
+			</tr>
+			
+			<tr>
+				<td>진달래</td>
+				<td>부산</td>
+			</tr>
+			
+			<tr>
+				<td>라일락</td>
+				<td>대구</td>
+			</tr>
+		</table>
+		
+		<table id="table2" border="1">
+		
+			<tr>
+				<th>이름</th>
+				<th>주소</th>
+			</tr>
+			
+			<tr>
+				<td>홍길동</td>
+				<td>대전</td>
+			</tr>
+			
+			<tr>
+				<td>개나리</td>
+				<td>서울</td>
+			</tr>
+			
+			<tr>
+				<td>진달래</td>
+				<td>부산</td>
+			</tr>
+			
+			<tr>
+				<td>라일락</td>
+				<td>대구</td>
+			</tr>
+		</table>
+		
+		
+		<table id="table3" border="1">
+			
+
+			
+			<tr id="tab3tr">
+				<th id="tab3th">영화제목</th>
+				<th>년도</th>
+				<th>감독</th>
+				<th>평가</th>
+			</tr>
+			
+			<tr>
+				<td>라이프 오브 파이</td>
+				<td>2013</td>
+				<td>이안</td>
+				<td>8.68</td>
+			</tr>
+			
+			<tr>
+				<td>레미제라블</td>
+				<td>2012</td>
+				<td>톰후퍼</td>
+				<td>8.28</td>
+			</tr>
+			
+			<tr>
+				<td>장고 : 분노의 추적자</td>
+				<td>2012</td>
+				<td>타란티노</td>
+				<td>8.29</td>
+			</tr>
+			
+			<tr>
+				<td>기생충</td>
+				<td>2019</td>
+				<td>봉준호</td>
+				<td>9.99</td>
+			</tr>
+			
+			<tr>
+				<td>백두산</td>
+				<td>2019</td>
+				<td>이해준</td>
+				<td>9.12</td>
+			</tr>
+		</table>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

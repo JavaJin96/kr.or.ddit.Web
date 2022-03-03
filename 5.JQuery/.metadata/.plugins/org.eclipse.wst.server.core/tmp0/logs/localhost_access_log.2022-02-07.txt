@@ -1,0 +1,6 @@
+127.0.0.1 - - [07/Feb/2022:15:08:04 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [07/Feb/2022:15:08:04 +0900] "GET /boardpro/boardsearch/boardpage.jsp HTTP/1.1" 200 7480
+0:0:0:0:0:0:0:1 - - [07/Feb/2022:15:08:04 +0900] "GET /boardpro/js/jquery-3.6.0.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Feb/2022:15:08:04 +0900] "GET /boardpro/js/boardsearch.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Feb/2022:15:08:05 +0900] "GET /boardpro/ListSearch.do?page=1&type=&word= HTTP/1.1" 200 585
+0:0:0:0:0:0:0:1 - - [07/Feb/2022:15:08:07 +0900] "POST /boardpro/ReplyList.do HTTP/1.1" 200 601

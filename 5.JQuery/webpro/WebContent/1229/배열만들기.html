@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<script>
+
+// 함수 생성 방법들..
+//
+// var proc1 = function() {}
+// 람다 함수
+// var proc1 = (파라미터) => {}
+// 기존 방법
+// function proc1()	{}
+
+var proc1 = () => {
+	var fruits = ["사과", "바나나", "복숭아", "참외", "수박"];
+	
+	// document.querySelector("#result1").innerHTML = fruits + "<br>";
+	
+	print(fruits, "#result1");
+	
+}
+
+var print = (fr, res) => {
+	str = "";
+	for(i = 0; i<fr.length; i++){
+		str += fr[i] + "&nbsp;&nbsp;&nbsp;"; 
+	}
+	
+	document.querySelector(res).innerHTML = str;
+}
+
+var proc2 = () => {
+	var fruits = new Array ("자두", "포도", "복숭아", "멜론", "파인애플");
+	
+	print(fruits, "#result2");
+	
+}
+
+var proc3 = () => {
+	var fruits = new Array();
+	fruits[0] = "사과";
+	fruits[1] = "키위";
+	fruits[2] = "파인애플";
+	fruits[3] = "포도";
+	fruits[4] = "두리안";
+	
+	print(fruits, "#result3");
+	
+}
+
+</script>
+</head>
+
+<body>
+<pre>
+배열 만들기
+1. 리터럴에 의한 생성
+var su=[1,2,4,5,6,7,8,9,2, "korea"]
+var fruits = ["사과", "바나나", 456.789, 100] ** 타입상관없이 배열생성 가능(다른타입들도 들어올수 있음)
+
+2. 생성자의 파라미터에 의한 생성
+var fruits = new Array("사과", "바나나", 456.789, 100)
+
+3. 파라미터 없는 생성자에 의한 생성 
+var fruits = new Array();
+fruits[0] = "바나나";
+fruits[1] = "사과";
+fruits[2] = 456.789;
+fruits[3] = 100;
+</pre>
+	<div class="box">
+	var fruits = ["사과", "바나나", "복숭아", "참외", "수박"]<br><br>
+		<input type="button" value="확인" onclick="proc1()">
+		<div id = "result1"></div>
+	</div>
+	
+	<div class="box">
+	var fruits = new Array ("자두", "포도", "복숭아", "멜론", "파인애플")<br><br>
+		<input type="button" value="확인" onclick="proc2()">
+		<div id = "result2"></div>
+	</div>
+	
+	<div class="box">
+	var fruits = new Array ()<br><br>
+		<input type="button" value="확인" onclick="proc3()">
+		<div id = "result3"></div>
+	</div>
+</body>
+</html>

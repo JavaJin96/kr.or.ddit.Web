@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<!--  <script src="../js/jquery-3.6.0.min.js"></script>-->
+<!--  <link rel="stylesheet" href="../css/public.css"> -->
+<style>
+.container .form-group .form-control{
+     width: 200px;
+     float: left;
+ 	}
+#add1,#add2{
+   	width: 400px;
+	}
+.ziptr:hover{
+	background : crimson;
+}   
+
+</style>
+<script>
+$(function(){
+	
+	//정규식체크------------------------------------------------------------
+	$("#id").on("keyup", function(){
+		idvalue = $(this).val();
+		
+		idreg = /^[a-zA-Z][a-zA-Z0-9]{3,11}$/;
+		
+		if(idreg.test(idvalue)){
+			// 일치한다.
+			$(this).css("border", "2px solid green");
+			$("#checkId").prop("disabled", false);
+		}else{
+			// 불일치한다.
+			$(this).css("border", "2px solid red");
+			$("#checkId").prop("disabled", true);
+		}
+		
+	})
+	
+	$("#pwd").on("keyup", function(){
+		pwvalue = $(this).val();
+		
+		pwreg = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[~!@#$%^&*()_+]).{8,15}$/;
+		
+		if(pwreg.test(pwvalue)){
+			$(this).css("border", "2px solid green");
+		}else{
+			$(this).css("border", "2px solid red");
+		}
+	})
+	
+	$("#name").on("keyup", function(){
+		namevalue = $(this).val();
+		namereg = /^[가-힣]{2,10}$/;
+		
+		if(namereg.test(namevalue)){
+			$(this).css("border", "2px solid green");
+		}else{
+			$(this).css("border", "2px solid red");
+		}
+	})
+	
+	$("#mail").on("keyup", function(){
+		
+		mailvalue = $(this).val();
+		mailreg = /^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)(\.[a-zA-Z]+){1,2}$/;
+		
+		if(mailreg.test(mailvalue)){
+			$(this).css("border", "2px solid green");
+		}else{
+			$(this).css("border", "2px solid red");
+		}	
+	})
+	
+	
+	$("#hp").on("keyup", function(){
+		
+		hpvalue = $(this).val();
+		hpreg = /^\d{3}-\d{4}-\d{4}$/;
+		
+		if(hpreg.test(hpvalue)){
+			$(this).css("border", "2px solid green");
+		}else{
+			$(this).css("border", "2px solid red");
+		}
+	})
+	
+
+	
+	
+	// id중복체크 이벤트 -------------------------------------------------------
+	$("#checkId").on("click", function(){
+		// 입력한 ID값 가져오기
+		idvalue = $("#id").val().trim();
+		
+		// 공백검사
+		if(idvalue.length < 1 ){
+			alert("아이디를 입력하세요.");
+			return false;
+		}
+		
+		// 서버로 전송
+		$.ajax({
+            url : '/jqpro/IDCheck', //ajax의 url은 꼭꼭꼭 /로 시작하여야 하고, 클래명이 아닌 mapping값을 기재해줘야 한다.
+            type : 'post',
+            data : {"id" : idvalue },
+            success : function(res){
+                $('span').html(res.sw).css("color" , "red");
+              // alert(res.sw);
+            },
+              error : function(xhr){
+                 alert("상태 : " + xhr.status );
+              },
+              dataType : 'json'	
+		})		
+	})// idcheck
+	
+	// 우편번호검색
+	$("#zipsearch").on("click", function(){
+		window.open("zipsearch.html","우편번호","width=300 height=500");
+	})
+
+	$("form").on("submit", function() {
+					// 입력한 값을 가져온다.
+
+					// serialize() : 데이터를 직렬화하여 편하게 전송해줌, 데이터는 각 태그의 name값을 이용하여 꺼내온다.
+					// request.getParameter("name속성값");
+
+					//s1 = $("form").serialize();
+					s2 = $("form").serializeArray();
+					console.log(s2);
+
+					// 서버로 보내기
+					$.ajax({
+						url : "/jqpro/insert.do",
+						type : "post",
+						data : s2,
+						success : function(res) {
+							$("#sub").html(res.sw).css("color", "red");
+							$("#sub").show();
+						},
+						error : function(xhr) {
+							alert("상태 : " + xhr.status);
+						},
+						dataType : "json"
+					})
+
+				})
+
+				// Modal창에서 '동'입력하고 서버로 보내기 
+				$("#modalbut").on(
+						"click",
+						function() {
+							dongvalue = $("#dong").val().trim();
+
+							if (dongvalue.length < 1) {
+								alert("입력하세요.");
+								return false;
+							}
+
+							// 서버로 보내기
+
+							$.ajax({
+								url : "/jqpro/ZipDong",
+								type : "get",
+								data : {
+									"dong" : dongvalue
+								},
+								success : function(res) {
+									code = "<table>";
+									code += "<tr><td>우편번호</td>";
+									code += "<td>주소</td><td>번지</td></tr>";
+
+									$.each(res, function(i, v) {
+										code += "<tr class='ziptr'><td>"
+												+ v.zipcode + "</td>";
+										code += "<td>" + v.addr + "</td><td>"
+												+ v.bunji + "</td></tr>";
+									})
+									code += "</table>";
+
+									$("#result3").html(code);
+								},
+								error : function(xhr) {
+									alert("상태 : " + xhr.status);
+								},
+								dataType : "json"
+							})
+
+						})
+
+				// 우편번호 검색 결과 창에서 선택
+				$("#result3").on("click", ".ziptr", function() {
+					zip = $("td", this).eq(0).text();
+					addr = $("td", this).eq(1).text();
+
+					console.log(zip, addr);
+					$("#zip").val(zip);
+					$("#add1").val(addr);
+					
+					$("#myModal").modal("hide");
+
+				})
+				
+				// modal창 닫을 때 실행된 내용 지우기
+				$("#myModal").on("hide.bs.modal", function(){
+					$("#dong").val("");
+					$("#result3").empty();
+				})
+				
+
+			})
+</script>
+</head>
+<body>
+
+   <div class="box">
+      <h3></h3>
+   
+      <div id="result1">
+         <div class="container">
+            <h2>Form Validation</h2>
+            <form class="needs-validation" novalidate onsubmit="return false;"> 
+        
+            
+            
+               <div class="form-group">
+                  <label for="id">아이디</label> 
+                  <input type="button" value="중복검사" class="btn btn-success" id="checkId"><input type="text"
+                     class="form-control" id="id" placeholder="Enter userid"
+                     name="mem_id" required>
+                  
+                  <span id="idspan"></span>
+                  <div id="idres" class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="pwd">비밀번호</label> <input type="password"
+                     class="form-control" id="pwd" placeholder="Enter password"
+                     name="mem_pass" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="name">이름</label> <input type="text"
+                     class="form-control" id="name" placeholder="Enter username"
+                     name="mem_name" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="mail">이메일</label> <input type="text"
+                     class="form-control" id="mail" placeholder="Enter usermail"
+                     name="mem_mail" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="hp">전화번호</label> <input type="text"
+                     class="form-control" id="hp" placeholder="Enter hp"
+                     name="mem_hp" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="zip">우편번호</label>
+                  <input id="zipsearch"type="button" value="번호검색" class="btn btn-success">
+                  <input type="button" value="번호검색modal" class="btn btn-success" data-toggle="modal" data-target="#myModal"> <input type="text"
+                     class="form-control" id="zip" placeholder="Enter zip"
+                     name="mem_zip" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="add1">주소</label> <input type="text"
+                     class="form-control" id="add1" placeholder="Enter add1"
+                     name="mem_add1" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               <div class="form-group">
+                  <label for="add2">상세주소</label> <input type="text"
+                     class="form-control" id="add2" placeholder="Enter add2"
+                     name="mem_add2" required>
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+               </div>
+               
+
+               <button type="submit" class="btn btn-success">Submit</button>
+               
+               <div id="sub"class="valid-feedback">Valid.</div>
+               <div class="invalid-feedback">Please fill out this field.</div>
+            </form>
+         </div>
+
+      </div>
+   </div>
+
+
+<!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        	<h2>우편번호 찾기</h2>
+			찾는 동 이름 입력 <br><br>
+			<input type="text" id="dong">
+			<input type="button" id="modalbut"value="검색">
+			<br><br>
+			<div id="result3">
+        	</div>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})(); 
+</script>
+   
+
+</body>
+
+</html>

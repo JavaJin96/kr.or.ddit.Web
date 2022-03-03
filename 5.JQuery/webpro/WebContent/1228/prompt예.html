@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	버튼을 클릭 하면 prompt를 이용하여 데이터 입력 후<br>
+	alert를 이용하여 출력<br>
+	<input type="button" value="확인" onclick="proc()">
+	
+	<br>
+	<br>
+	
+	버튼을 클릭 하면 prompt를 이용하여 2개의 데이터 입력 후<br>
+	값의 덧셈결과를 div요소에 출력<br>
+	<input type="button" value="확인" onclick="add()">
+	<br>
+	<br>
+	<div></div>
+
+<script>
+function proc(){
+	
+	var input = prompt("나이를 입력하세요.","1~100");
+	
+	alert("나이는" + input + "세입니다.");	
+}
+
+function add(){
+	// 입력
+	var int1 = parseInt(prompt("첫번째 수 입력"));
+	var int2 = parseInt(prompt("두번째 수 입력"));
+	
+	// 계산
+	var res = int1 + int2;
+	
+	// div 요소검색
+	var out = document.getElementsByTagName("div")[0];
+	// var out = document.querySelector("div");
+	// querySelector : 결과값이 여러개라도 맨앞에 결과만 가져온다.
+	
+	// 출력내용구성
+	str = "첫번째 수 : " + int1 + "<br>";
+	str += "두번째 수 : " + int2 + "<br>";
+	str += "결과 : " + res + "<br>";
+	
+	out.innerHTML = str;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+`<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<style>
+	form{
+		width : 50%;
+		height : auto;
+		border : 1px solid blue;
+		padding : 20px;
+		display: none;
+	}
+	label{
+		display : inline-block;
+		width : 80px;
+		height : 30px;
+	}
+
+</style>
+
+<script>
+	function proc(){
+		//form을 검색
+		document.ff.style.display = "block";
+		//document.querySelector("form").style.display = "block";
+		//document.getElementsByTagName("form")[0].style.display = "block";
+		
+		//a = document.getElementsByTagName("form");
+		//a[0].style.display = "block";
+	}
+	
+	function hide(){
+		document.ff.style.display = "none";
+	}
+
+</script>
+
+</head>
+<body>
+<pre>
+스크립트에서 html요소로 접근,검색하는 방법
+1. name을 이용 : document.name
+
+2. class를 이용 : 
+	document.getElementsByClassName('클래스이름')
+	return 은 배열로 나온다.(같은 클래스가 여러개이기 때문에)
+	스크립트에서는 변수의 자료형과 []등을 선언해줄 필요가 없다.(arr = 으로 사용가능)
+	arr[0], arr[1]...
+	
+	a = document.querySelector(".ttr");(리턴값은 하나만 나온다.)
+	b = document.querySelectorAll(".ttr");(리턴값은 배열.)
+	a는 단수이고 b는 배열이다. 
+	 
+3. id를 이용 : 
+	document.getElementById("tab1");
+	document.querySelector("#tab1");
+	
+4. tag이름을 이용 :
+	arr = document.getElementsByTagName("form");
+	a = document.querySelector("form");
+	b = document.querySelectorAll("form");
+	
+</pre>
+	<input type="button" value="확인" onclick="proc()">
+	<input type="button" value="감추기" onclick="hide()">
+	<br>
+	<form name="ff" action="display.jsp" method="post">
+		<label>이름</label>
+		<input type="text" name="name"><br>
+		
+		<label>아이디</label>
+		<input type="text" name="id"><br>
+		
+		<label>전화번호</label>
+		<input type="text" name="tel"><br>
+		<input type="submit" value="전송">
+	</form>
+</body>
+</html>

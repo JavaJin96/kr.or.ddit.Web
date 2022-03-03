@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+
+<script>
+
+	arr = ["Hello", "Good", "happy new year", "Merry Christmas",
+		"우리의 영웅 Hero", "백두산 호랑이", "별빛같은 나의 사랑아", "사랑은 늘 도망가"];
+	
+proc1 = () => {
+	
+	idx = Math.floor(Math.random() * arr.length);
+	
+	// textNode생성
+	textnode = document.createTextNode(arr[idx]);
+	
+	
+	//p태그를 생성
+	
+	ptag = document.createElement("p");
+
+	// ptag에 textnode를 추가한다.
+	
+	ptag.appendChild(textnode);
+	
+	// result1을 검색 : 부모
+	result1 = document.getElementById("result1");
+	
+	
+	// result1에 ptag 를 추가한다.
+	result1.appendChild(ptag);
+	
+}
+
+proc2 = () => {
+	// result1을 검색한다.
+	
+	result1 = document.getElementById("result1")
+	
+	// lastChild를 이용해서 삭제할 node를 선택한다.
+	
+	p = result1.lastChild;
+	
+	// 부모노드.removeChild(자식노드)
+	
+	result1.removeChild(p);
+}
+
+proc3 = () => {
+	
+	idx = Math.floor(Math.random() * arr.length);
+	
+	// textNode생성
+	textnode = document.createTextNode(arr[idx]);
+	
+	// p태그를 생성
+	
+	ptag = document.createElement("p");
+	
+	// 삭제버튼 생성
+	bdel = document.createElement("button");
+	bdel.type = "button";
+	bdel.textContent = "삭제";
+	
+	// 삭제버튼의 이벤트 설정
+	bdel.onclick = function(){
+		
+		parent = this.parentNode;
+		
+		parent.remove();
+	}
+	
+	// p태그에 textnode, 버튼을 추가한다.
+	ptag.appendChild(textnode);
+	ptag.appendChild(bdel);
+	
+	// p태그를 result2에 추가한다.
+	
+	document.getElementById("result3").appendChild(ptag);
+	
+}
+
+</script>
+
+</head>
+<body>
+
+	<div class="box">
+		<h3>요소생성 및 삭제</h3>
+		생성클릭시 랜덤으로 발생하는 문자열을 textNode를 생성하여 result1에 추가한다.<br>
+		삭제클릭시 뒤에서부터 문자를 삭제한다.<br>
+		<input type="button" value="생성" onclick="proc1()">
+		<input type="button" value="삭제" onclick="proc2()">
+	
+		<div id="result1"></div>
+	</div>
+	
+	<div class="box">
+		<h3>요소생성 및 삭제</h3>
+		생성클릭시 랜덤으로 발생하는 문자열을 textNode를 생성하여 result1에 추가한다.<br>
+		삭제클릭시 뒤에서부터 문자를 삭제한다.<br>
+		<input type="button" value="생성삭제" onclick="proc3()">
+	
+		<div id="result3"></div>
+	</div>
+	
+
+</body>
+</html>

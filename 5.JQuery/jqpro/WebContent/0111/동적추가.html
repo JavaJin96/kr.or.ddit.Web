@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<script src="../js/jquery-3.6.0.min.js"></script>
+<style>
+img{
+	width : 100px;
+	height : 100px;
+}
+p{
+	border : 3px solid green;
+}
+</style>
+<script>
+$(function(){
+	$("#result1 p").on("click", function(){
+		text = $(this).attr("title");
+		
+		// 이미지 태그 생성
+		//$("<img src='../images/" + text + ".jpg"');
+		$("<img>", {
+			"src" : "../images/" + text + ".jpg",
+			"alt" : text
+		}).appendTo(this);
+		
+	})
+	
+	$("#result2 p").on("click", function(){
+		text = $(this).attr("title");
+		
+		vimg = $("<img>", {
+			"src" : "../images/" + text + ".jpg",
+			"alt" : text
+		})
+		
+		$(this).prepend(vimg);
+		//$(vimg).prependTo(this);
+		
+	})
+	
+	$("#result3 p").on("click", function(){
+		text = $(this).attr("title");
+		
+		vimg = $("<img>", {
+			"src" : "../images/" + text + ".jpg",
+			"alt" : text
+		})
+		
+		$(this).before(vimg);
+		
+	})
+	
+	$("#result4 p").on("click", function(){
+		text = $(this).attr("title");
+		
+		vimg = $("<img>", {
+			"src" : "../images/" + text + ".jpg",
+			"alt" : text
+		})
+		
+		//$(this).after(vimg);
+		$(vimg).insertAfter(this)
+		
+	})
+	
+	
+	
+})
+</script>
+</head>
+<body>
+
+	<div class="box">
+		<h3>appendTo</h3>
+		p태그 테두리를 벗어나지 않으면서 안쪽으로 마지막에 추가한다. <br>
+		appendTo(selector) : ~를 selector에게 <br>
+		append(content) : ~에게 content를 <br>
+		<div id="result1">
+			<p title="Tulips">튜울립</p>
+  			<p title="Chrysanthemum">국화</p>
+  			<p title="Koala">코알라</p>
+  			<p title="Hydrangeas">수국</p>  
+			
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3>prepend</h3>
+		p태그 테두리를 벗어나지 않으면서 안쪽으로 처음에 추가한다. <br>
+		prependTo(selector) : ~를 selector에게 <br>
+		prepend(content) : ~에게 content를 <br>
+		<div id="result2">
+			<p title="Tulips">튜울립</p>
+  			<p title="Chrysanthemum">국화</p>
+  			<p title="Koala">코알라</p>
+  			<p title="Hydrangeas">수국</p>  
+			
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3>before</h3>
+		p태그 테두리 바깥쪽으로 위로 추가한다. <br>
+		insertBefore(selector) : ~를 selector에게 <br>
+		before(content) : ~에게 content를 <br>
+		<div id="result3">
+			<p title="Tulips">튜울립</p>
+  			<p title="Chrysanthemum">국화</p>
+  			<p title="Koala">코알라</p>
+  			<p title="Hydrangeas">수국</p>  
+			
+		</div>
+	</div>
+	
+	<div class="box">
+		<h3>after</h3>
+		p태그 테두리 바깥쪽으로 아래로 추가한다. <br>
+		insertAfter(selector) : ~를 selector에게 <br>
+		after(content) : ~에게 content를 <br>
+		<div id="result4">
+			<p title="Tulips">튜울립</p>
+  			<p title="Chrysanthemum">국화</p>
+  			<p title="Koala">코알라</p>
+  			<p title="Hydrangeas">수국</p>  
+			
+		</div>
+	</div>
+	
+
+</body>
+</html>

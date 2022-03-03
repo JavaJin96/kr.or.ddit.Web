@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script>
+$(function(){
+	$("#btn1").on("click", function(){
+	//	 ptag = $("<p onclick='pclick(this)'>무궁화 꽃이 피었습니다.</p>"); // j쿼리로부터 생성된 변수는 $를 안서도 무관하다.
+		
+  		ptag = $("<p></p>", {
+			  "class" : "pp",
+				"text" : "무궁화 꽃이 피었습니다",
+			   "click" : function(){
+					$(this).css("background", "lime");
+				}
+			
+		})  
+		
+/* 	      ptag =$('<p></p>', {
+              'class' : 'pp' ,
+              'text'  : '무궁화 꽃이 피었습니다',
+              'click' : function(){
+                 $(this).css('background','lime');
+              }
+      
+      }) */
+		
+		$(ptag).appendTo($("#result1"));
+	})
+		
+	$("#btn2").on("click", function(){
+		img = $("<img>", {
+			"src" : '../images/펭귄.jpg',
+			"width" : "100px",
+			"height" : "100px",
+			"margin" : "10px",
+			"click" : function(){
+				$(this).css("border", "3px solid red");
+			}
+			
+		})
+		
+		img.appendTo($("#result2"));
+		
+	}) 
+	
+	
+})
+
+function pclick(ptag){
+	$(ptag).css("background", "yellow");
+}
+
+</script>s
+</head>
+<body>
+	<div class="box">
+		<h3></h3>
+		버튼 클릭시 p태그를 생성하여 result1에 추가 <br>
+		<input type="button" value="확인" id="btn1">
+	
+		<div id="result1"></div>
+	</div>
+	
+	<div class="box">
+		<h3></h3>
+		버튼 클릭시 이미지를 랜덤으로 추가할 수 있다. <br>
+		또한 이미지를 클릭하면 이미지에 테두리(border:2px solid red) 가 지정된다. <br>
+		<input type="button" value="이미지 추가" id="btn2">
+	
+		<div id="result2"></div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div{
+		border : 1px solid blue;
+		width : 50%;
+		height : 150px;
+	}
+</style>
+
+</head>
+<body>
+	<div id="result"></div>
+</body>
+
+<script>
+	// 코딩의 순서에 따라서 오류가 나오는 경우;
+	// body태그의 생성이 되지 않은 타이밍에 script의 result를 검색하지 못하여 나오는 오류
+	// 이럴때는 script를 아래로 내린다. 
+	today = new Date();
+	
+	a = today.toLocaleString();
+	b = today.toLocaleDateString();
+	c = today.toLocaleTimeString();
+	
+	// 출력내용구성
+	str = today + "<br>";
+	str += a + "<br>";
+	str += b + "<br>";
+	str += c + "<br>";
+
+	// id가 result인 요소를 검색
+	result = document.querySelector('#result');
+	// result에 출력
+	result.innerHTML = str;
+	
+</script>
+
+</html>

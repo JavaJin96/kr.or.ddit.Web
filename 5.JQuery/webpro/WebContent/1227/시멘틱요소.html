@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header, nav, section, article, footer, img{
+		width : 100%;
+		height : 300px;
+		margin : 5px;
+		padding : 2px;
+		background : skyblue;
+		font-size: 1.5em;
+		border-radius: 40px;
+		box-sizing: border-box;
+	}
+	body{
+		min-width : 500px;
+	}
+	header{
+		text-align: center;
+
+	}
+	nav{
+		padding : 1px;
+		width : 20%;
+		height : 650px;
+		float : left;
+		overflow : auto;
+	}
+	section{
+		width : calc(80% - 25px);
+		height : 650px;
+		float : right;		
+		box-sizing: border-box;
+		
+	}
+	article{
+		border : 3px solid white;
+		margin : 10px;
+		width: 98%;
+		overflow : auto;
+	}
+	p{
+		padding : 10px;
+	}
+	h2{
+		padiing : 10px;
+	}
+	footer{
+		height : 150px;
+		clear: both;
+		text-align: center;
+	}
+	img {
+		min-width : 100px;
+		min-height : 100px;
+		margin : 10px;
+		width : 90%;
+		height : 300px;
+		float : left;
+	}
+</style>
+</head>
+<body>
+	<header> 
+	<h1>My Blog Page</h1> 
+	<h2> 시멘틱 태그로 구성된 페이지입니다.</h2>
+	<p> 이곳은 header 태그입니다.</p>
+	
+	</header>
+	
+	<nav> 
+	<h2>이곳은 nav 태그입니다.</h2>
+	<h2></h2>
+	<ol> 자주 방문하는 사이트목록 입니다.
+		<li><a href="http://www.naver.com" target="_black">네이버</a></li>
+		<li><a href="http://www.google.com" target="_black">구글</a></li>
+		<li><a href="http://www.github.com" target="_black">깃허브</a></li>
+		<li><a href="httP://www.codeup.kr" target="_black">코드업</a></li>
+		<li><a href="http://www.w3schools.com" target="_black">w3스쿨</a></li>
+	</ol>
+	
+	<figure><img src="../images/보노보노1.jpg" alt=""></figure>
+	
+	
+	</nav>
+	
+	<section>
+		<article> 
+			<h3>Semantic Tags</h3> 
+			<p> 시멘틱 요소들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+		</article>
+		<article>
+			<h3>div 와 span</h3> 
+			<p> div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로서
+				텍스트를 위한 컨테이너로 사용할 수 있다. </p>
+		</article>
+	</section>
+	
+	<footer><h3>Copyright (c) 2021 Park</h3></footer>
+</body>
+</html>

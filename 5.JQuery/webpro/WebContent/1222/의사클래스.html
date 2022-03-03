@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+
+<style>
+	
+	/* table[id=tab1]{
+		
+	}
+	p[class=p1]{
+	
+	} */
+	#tab1 td:nth-child(2n){
+		background : lightgreen;
+	}
+	
+	#tab2 tr:nth-child(2n) td {
+		background : lightblue;
+	}
+	
+	a{
+		border : 1px solid orange;
+		margin : 20px;
+		padding : 10px;
+		letter-spacing: 5px;
+	}
+	
+	a:link{
+		color : pink;
+		text-decoration: none;
+	}
+	a:visited{
+		color : blue;
+	}
+	a:hover{
+		color : red;
+		background : yellow;
+		text-decoration: line-through;
+	}
+	a:active{
+		color : green;
+		font-size : 1.5em;
+	}
+	
+/* 	p:hover{
+		font-size : 1.5em;
+		background : yellow;
+	} */
+	table{
+		border : 1px solid blue;
+	}
+	td{
+		width : 150px;
+		height : 50px;
+		text-align: center;
+	}
+
+</style>
+
+
+</head>
+<body>
+<pre>
+의사코드
+상태
+ :link		: 처음 링크(a)
+ :visited	: 방문한 후
+ :hover		: 마우스 올려놨을때
+ :active	: 마우스 누를때
+
+구조 : 몇번째 자식을 선택할때
+ :nth-child(index) 
+ :nth-child(2n)
+ :nth-child(2n-1)
+</pre>
+	<a href = "http://www.ddit.or.kr" target="_black">대덕인재개발원</a>
+	
+	<a href = "http://www.w3school.com" target="_black">w3schools</a>
+	<a href = "http://nate.com" target="_black">nate</a>
+	<a href = "http://daum.net" target="_black">daum</a>
+	<a href = "http://www.naver.com" target="_black">naver</a>
+		
+	<p>무궁화 꽃이 피었습니다.</p>
+	<p>맛있는 점심 밥을 먹어요.</p>
+	
+	
+	<table id="tab1" border="1">
+	
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+	
+	</table>
+	
+	<br>
+	<br>
+	
+	<table id="tab2" border="1">
+	
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+	
+	</table>
+	
+	
+	
+	
+</body>
+</html>

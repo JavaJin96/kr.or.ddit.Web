@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<script src="../js/jquery-3.6.0.min.js"></script>
+
+<script>
+
+// input태그의 id를 이용하여 이벤트 핸들러 설정
+$(document).ready(function(){
+	$("#butok").on("click", function(){
+		$("#result1").css("background", "yellow");
+		
+		$("h1").css("color", "blue");
+		
+		$("#para").css("color", "green");
+		
+		$(".sample").css("color", "red");
+	})
+})
+
+
+// input 태그에서 직접 onclick을 준것(onclick = proc1()에 의해서 호출)
+function prod1() {
+	
+}
+</script>
+</head>
+<body>
+
+	<div class="box">
+		<h3></h3>
+		<input type="button" value="proc1()" onclick="proc1()">
+		<input id="butok" type="button" value="butok">
+	
+		<div id="result1">
+			 <h1> 제목입니다 </h1>
+			 <h2 id="para"> 작은 제목입니다 </h2>
+		 	 <h2 class="sample"> 샘플입니다 </h2>
+		</div>
+	</div>
+	
+
+</body>
+</html>

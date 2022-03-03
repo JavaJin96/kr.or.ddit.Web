@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>리스트</title>
+	  <style>
+		img{
+			width : 30px;
+			height : 30px;
+			<! width : 가로길이 height : 세로길이>
+			<! a태그의 속성 href와 target 
+				href : 하이퍼링크의 목적지 (주소)
+				target : _top, _parent, _blank, _self ..
+				_self : 현재페이지에서 링크 열기
+				_blank : 새로운 페이지에서 링크 열기>
+				
+			<! overflow : hidden 넘치는 부분 생략
+						  scroll 스크롤 생성
+						  auto 그냥 자동>
+		}
+		
+
+		
+		div{
+			overflow : auto;
+			border : 1px solid blue;
+			width : 20%;
+			height : 150px;
+			float : left;<! 배치를 왼쪽을 기준으로 배치 / 블럭요소의 배치를 inline 처럼>
+		}
+		
+		pre{
+			font-size : 1.5em;
+			background : #fad9aa;
+		}
+		
+		#post{
+			height : 250px;
+		}
+	  </style>
+	</head>
+	
+	
+	<body>
+<pre>
+	번호없는 리스트 : <ul>
+	&lt;ul>&lt;li>&lt;/li>&lt;/ul>
+	&lt;li>&lt;/li> 사이에 문자, 이미지, 링크, 다른 리스트가 올 수 있다.
+	
+	&lt;div>
+	 큰 단락
+	 여러가지의 태그들을 분리하여 묶어준다.
+	 블럭요소
+</pre>
+	 <div>
+		<ul>
+			<li>에스프레소</li>
+			<li>아메리카노</li>
+			<li>카페라떼</li>
+			<li>카푸치노</li>
+		</ul>
+	 </div>
+		
+	 <div>
+		<ul>
+			<li><img src="./images/에스프레소.jpg"  alr=""></li>
+			<li><img src="./images/아메리카노.jpg"  alr=""></li>
+			<li><img src="./images/카페라떼.jpg"  alr=""></li>
+			<li><img src="./images/카푸치노.jpg"  alr=""></li>
+		</ul>
+	 </div>
+		
+	 <div>
+		<ul>
+			<li><a href="http://www.daum.net" target="_blank">다음</a></li>
+			<li><a href="http://www.naver.com" target="_blank">네이버</a></li>
+			<li><a href="http://www.google.com" target="_blank">구글</a></li>
+			<li><a href="http://www.nate.com" target="_blank">네이트</a></li>
+		</ul>
+	 </div>
+		
+	 <div>
+		<ul>
+			<li>
+				<a href="./images/에스프레소.jpg" target="_blank">
+				<img src="./images/에스프레소.jpg" alt="에스프레소">
+				</a>
+			</li>
+			
+			<li>
+				<a href="./images/아메리카노.jpg" target="_blank">
+				<img src="./images/아메리카노.jpg" alt="아메리카노">
+				</a>
+			</li>
+			
+			<li>
+				<a href="./images/카페라떼.jpg" target="_blank">
+				<img src="./images/카페라떼.jpg" alt="카페라떼">
+				</a>
+			</li>
+			
+			<li>
+				<a href="./images/카푸치노.jpg" target="_blank">
+				<img src="./images/카푸치노.jpg" alt="카푸치노">
+				</a>
+			</li>
+		</ul>
+	 </div>
+		
+	 <div id="post">
+		<ul>
+			<li> 꽃이름
+				<ol>
+					<li>개나리</li>
+					<li>진달래</li>
+					<li>수선화</li>
+				</ol>
+			</li>
+			
+			<li> 맛있는 것
+				<ol>
+					<li>떡볶이</li>
+					<li>불고기</li>
+					<li>치킨</li>
+				</ol>
+			</li>
+			
+			<li> 좋아하는 것
+				<ul>
+					<li>게임하기</li>
+					<li>공부하기</li>
+					<li>잠자기</li>
+				</ul>
+			</li>
+
+		</ul>
+	 </div>
+		
+		
+	</body>
+</html>

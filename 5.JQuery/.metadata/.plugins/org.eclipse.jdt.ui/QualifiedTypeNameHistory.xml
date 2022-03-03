@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="kr.or.ddit.join.vo.ZipVO"/>
+<fullyQualifiedTypeName name="kr.or.ddit.join.dao.IMemberDao"/>
+<fullyQualifiedTypeName name="kr.or.ddit.join.dao.MemberDaoimpl"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.client.SqlMapClient"/>
+<fullyQualifiedTypeName name="kr.or.ddit.config.SqlMapClientFactory"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.dao.BoardDaoimpl"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.vo.ReflyVO"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.controller.List"/>
+<fullyQualifiedTypeName name="com.google.gson.JsonObject"/>
+<fullyQualifiedTypeName name="com.google.gson.JsonElement"/>
+<fullyQualifiedTypeName name="kr.or.ddit.join.service.IMemberService"/>
+<fullyQualifiedTypeName name="kr.or.ddit.join.service.MemberServiceimpl"/>
+<fullyQualifiedTypeName name="kr.or.ddit.join.vo.MemberVO"/>
+<fullyQualifiedTypeName name="com.sun.security.sasl.ClientFactoryImpl"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.service.IBoardService"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.vo.BoardVO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.controller.ReplyInsert"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.server.ServiceDefinitionImpl"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.service.BoardServiceimpl"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.controller.ReplyUpdate"/>
+<fullyQualifiedTypeName name="kr.or.ddit.board.vo.ReplyVO"/>
+</qualifiedTypeNameHistroy>

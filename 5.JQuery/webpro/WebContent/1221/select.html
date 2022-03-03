@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+	form{
+		border : 1px solid gold;
+		margin : 20px auto;
+		padding : 30px;
+	}
+	select{
+		width : 300px;
+	}
+
+</style>
+</head>
+<body>
+	
+	<h3>하나의 아이템을 선택한다.</h3>
+	<form action="select1.jsp" method="post">
+		<select name="cars1">
+			<option value="모닝">모닝</option>
+			<option value="스파크">스파크</option>
+			<option value="K5" selected="selected">K5</option>
+			<option value="K7">K7</option>
+			<option value="카니발">카니발</option>
+		
+		</select>
+		
+		<button>전송</button>
+	</form>
+	
+	<h3>복수개의 아이템을 선택한다.</h3>
+	<form action="select2.jsp" method="post">
+		<p> %lt;select name="cars2" multiple size="5"> </p>
+		<select name="cars2" multiple size="5">
+			<option value="모닝" selected>모닝</option>
+			<option value="스파크">스파크</option>
+			<option value="K5">K5</option>
+			<option value="K7">K7</option>
+			<option value="카니발" selected>카니발</option>
+		
+		</select>
+		
+		<button>전송</button>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+	form{
+		border : 1px solid black;
+		padding : 20px;
+		margin : auto;
+		width : 40%;
+	}
+	label{
+		display : inline-block;
+		width : 50px;
+		height : 20px;
+	}
+	.a{
+		width : 100px;
+	}
+	input{
+		margin-bottom: 5px;
+	}
+	legend{
+		text-align: center;
+		font-weight: bold;
+		font-size: x-large;
+		
+	}
+	
+
+</style>
+</head>
+<body>
+	<fieldset>
+	<legend>이메일 전송화면</legend>
+	<form action="과제1.jsp" method="post">
+		<label class="a">이름</label><input type="text" name="name"><br>
+		<label class="a">이메일</label><input type="text" name="email"><br>
+		<label>내용</label><br>
+		<textarea name="contents" rows="10" cols="45"></textarea><br>
+		
+		<button>전송</button>
+		<button type="reset">재설정</button>
+	</form>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+<style>
+	img{
+		width : 150px;
+		height : 150px;
+		border-radius : 50%;
+		margin : 20px;
+	}
+
+</style>
+
+<script>
+
+proc1 = () => {
+	// 종료클릭시 선택된 이미지의 테두리를 삭제한다.
+	
+	// result1를 검색
+	parent = document.getElementById("result1")
+	
+	// 클릭한 시작버튼을 안보이게 설정
+	button = document.getElementById("button1")
+	button.style.display = "none";
+	
+	
+	a = setInterval(function(){
+		
+	// 첫번재 자식 노드 검색
+	child = parent.firstChild;
+	
+	// 뒤로 이동 시킨다. (부모노드.appendChild(자식노드))
+	parent.appendChild(child);
+				
+	}, 100)
+	
+
+}
+
+proc2 = () => {
+	
+	// 시작버튼을 보이게 한다.
+	button.style.display = "inline";
+	
+	// 룰렛을 멈춘다.
+	clearInterval(a);
+	
+	// 랜덤으로 하나를 선택해서 테두리를 설정한다.
+	b = document.getElementsByTagName("img")[0];
+	
+	c = document.createElement("div");
+	c.style.width = "180px";
+	c.style.height = "180px";
+	c.style.border = "3px solid red";
+	c.style.display = "inline-block";
+	
+	d = document.getElementById("result1");
+	
+	d.appendChild(c);
+	c.appendChild(b);
+	
+	
+	
+	
+	
+	
+}
+
+</script>
+</head>
+<body>
+
+	<div class="box">
+		<h3></h3>
+		<input type="button" id="button1" value="시작" onclick="proc1()">
+		<input type="button" value="종료" onclick="proc2()">
+		<div id="result1">
+			<img src="../images/스포츠3.jpg" alt="">
+			<img src="../images/딸기스무디.jpg" alt="">
+			<img src="../images/등대.jpg" alt="">
+			<img src="../images/대나무숲.jpg" alt="">
+			<img src="../images/보노보노.png" alt="">
+			<img src="../images/쇼핑백.jpg" alt="">
+			<img src="../images/사자.jpg" alt="">
+			<img src="../images/1조발표용.jpg" alt="">		
+		</div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	form{
+		border : 3px dotted blue;
+		margin : 30px;
+		padding : 20px;
+	}
+	label{
+		display : inline-block;
+		width : 120px;
+		height : 30px;
+	}
+</style>
+</head>
+<body>
+	<form action="input2.jsp" method="post">
+		<label>아이디</label>
+		<input type="text" name="id">
+		<br>
+		
+		<label>비밀번호</label>
+		<input type="password" name="pass">
+		<br>
+		
+		<label>성별</label>
+		<input type="radio"	name="gender" value="남자">남자
+		<input type="radio"	name="gender" value="여자">여자
+		<br>
+		
+		<label>좋아하는 음식</label>
+		<input type="checkbox" name="like" checked value="음식1">음식1
+		<input type="checkbox" name="like" value="음식2">음식2
+		<input type="checkbox" name="like" value="음식3">음식3
+		<input type="checkbox" name="like" value="음식4">음식4
+		<input type="checkbox" name="like" value="음식5">음식5
+		<input type="checkbox" name="like" value="음식6">음식6
+		<input type="checkbox" name="like" value="음식7">음식7
+		<br>
+		
+		<label>파일</label>
+		<input type="file" name="file"> <br>
+		
+		<input type="hidden" value="12" name="age">
+		
+		<input type="submit">
+		<input type="reset">
+		
+	</form>
+</body>
+</html>

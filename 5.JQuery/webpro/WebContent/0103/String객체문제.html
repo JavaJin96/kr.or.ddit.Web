@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/public.css">
+
+<script>
+proc1 = () => {
+	
+	// 1.입력받기
+		input = prompt("주민번호를 입력해주세요.");
+	// 2.앞 6자리를 2자리씩 추출
+	
+		regNo = input.split("-");
+		regNo11 = regNo[0].substr(0,2);
+		regNo12 = regNo[0].substr(2,2);
+		regNo13 = regNo[0].substr(4,2);
+	
+	// 3.뒷 1자리를 추출
+		
+		regNo21 = regNo[1].substr(0,1);
+	
+	// 4.3번을 비교하여 1,2 : 1900  / 3,4 : 2000
+	
+		if(regNo21 == 1 || regNo21 == 2){
+			biryear = 19+regNo11;
+		}else if(regNo21 == 3 || regNo21 == 4){
+			biryear = 20+regNo11;
+		}
+	
+	// 5.3번을 비교하여 1,3 : 남자 / 2,4 : 여자
+	
+		if(regNo21 == 1 || regNo21 == 3){
+			gen = "남성";
+		}else if(regNo21 == 2 || regNo21 == 4 )	{
+			gen = "여성";
+		}
+	
+	// 6.나이 계산(Date객체를 이용해서 현재 년도를 구하기 : getFullYear)
+		today = new Date();
+		toYear = today.getFullYear();
+		
+		
+		age =  parseInt(toYear) - parseInt(biryear);
+	
+	// 7.출력내용구성(생년월일 : 성별 : 나이)
+		
+		res = "주민번호 : " + input.slice(0,8) + "*******<br>";
+		res += "생년월일 : " + biryear + "년" + regNo12 + "월" + regNo13 + "일" + "<br>";
+		res += "성별 : " + gen + "<br>";
+		res += "나이 : " + age + "<br>";
+		
+		document.getElementById("result1").innerHTML = res;
+}
+
+proc2 = () => {
+	
+	input = prompt("주민번호를 입력해주세요.");
+	
+	r1 = input.substr(0,1);
+	r2 = input.substr(1,1);
+	r3 = input.substr(2,1);
+	r4 = input.substr(3,1);
+	r5 = input.substr(4,1);
+	r6 = input.substr(5,1);
+	r0 = input.substr(6,1);  //"-"
+	r7 = input.substr(7,1);
+	r8 = input.substr(8,1);
+	r9 = input.substr(9,1);
+	r10 = input.substr(10,1);
+	r11 = input.substr(11,1);
+	r12 = input.substr(12,1);
+	r13 = input.substr(13,1);
+	
+	sumr = parseInt((r1*2) + (r2*3) + (r3*4) + (r4*5) + (r5*6) + (r6*7) + (r7*8) + (r8*9) + (r9*2) + (r10*3) + (r11*4) + (r12*5));
+	sumr2 = parseInt(sumr % 11);
+	
+	if(11-sumr2 == 10){
+		sumt = 0;
+	}else if(11-sumr2 == 11){
+		sumt = 1;
+	}else{
+		sumt = 11-sumr2;
+	}
+	
+	if(sumt == r13){
+		res = "맞는 주민번호입니다.";
+	}else{
+		res = "틀린 주민번호입니다.";
+	}
+	
+	res += "sumr : " + sumr;
+	res += "sumr2 : " + sumr2
+	res += "sumt : " + sumt
+	
+
+	
+	document.getElementById("result2").innerHTML = res;
+
+}
+
+</script>
+
+</head> 
+<body>
+
+	<div class="box">
+		<h3></h3>
+		주민등록번호를 입력 받아 생년월일과 성별을 출력하는 프로그램을 작성하시오.(입력은 prompt를 이용한다.)<br>
+		<input type="button" value="확인" onclick="proc1()">
+	
+		<div id="result1"></div>
+	</div>
+	
+	<div class="box">
+		<h3></h3>
+		주민등록번호를 입력 받아 주민등록번호의 유효성을 검사하는 프로그램을 작성하시오.(ABCDEF-GHIJKLM) <br>
+		<input type="button" value="확인" onclick="proc2()">
+	
+		<div id="result2"></div>
+	</div>
+	
+
+</body>
+</html>

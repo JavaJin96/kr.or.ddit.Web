@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+	min-width : 700px;
+	min-height: 100px;
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+}
+	
+
+header, nav, aside, section, footer {
+	border : 1px solid black;
+	box-sizing: border-box;
+	background: rgb(28,78,128);
+	
+}
+header a{
+	font-size : 1.4em;
+}	
+
+#right div{
+	margin-top : 50px;
+}
+nav{
+	margin : 1px auto;
+	padding-top:20px;
+	width:100%;
+	height : 100px;
+	overflow: hidden;
+}
+header{
+	height : 150px;
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 40px;
+}
+footer{
+	clear : both;
+	height : 100px;	
+	text-align: center;
+	padding-top : 40px;
+}
+
+li {
+	display : inline-block;
+	width : 360px;
+	height : 40px;
+	float : left;
+}
+#nav li{
+	margin-top : 20px;
+	display : inline-block;
+	width : 360px;
+	height : 40px;
+	text-align: center;
+	overflow: auto;
+	float : left;
+}
+#nav ul{
+	
+	margin : 1px auto;
+	margin-left : 22%;
+	margin-right : 22%;
+	font-size: 1.7em;
+}
+
+aside{
+	float : left;
+}
+#leftul li {
+	height : 107px;
+	font-size: 1.2em;
+}
+section{
+	float : left;
+}
+#right{
+	float : left;
+	text-align: center;
+	font-size: 1.3em;
+	padding-left:10px; 
+	padding-right: 10px;
+	
+}
+#right p{
+	font-size : 0.65em;
+}
+#left, #right{
+	width : calc(10% - 5px);
+	height : 800px;
+}
+section{
+	width : calc(80%);
+	height : 800px;
+}
+p{
+	
+}
+iframe{
+	width : 100%;
+	height : 793px;
+	background: white;
+}
+#left{
+	padding-left : 1px;
+}
+a:link{
+		color : white;
+		text-decoration: none;
+	}
+a:visited{
+		color : white;
+	}
+#right input{
+	width : 80%;
+}
+#cart{
+	height : 300px;
+}
+#right div{
+	border : 1px solid white;
+}
+
+

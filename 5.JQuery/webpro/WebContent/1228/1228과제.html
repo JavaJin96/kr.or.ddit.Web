@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div{
+		border : 1px solid black;
+	}
+</style>
+<script>
+
+function sc(){
+	
+
+	//입력
+	var score = parseInt(prompt("점수입력")) / 10;
+	var res = "";
+	
+	//비교
+	switch(score){
+	case 10 :
+		res = "A";
+		break;
+	case 9 : 
+		res = "A";
+		break;
+	case 8 :
+		res = "B";
+		break;
+	case 7 :
+		res = "C";
+		break;
+	case 6 :
+		res = "D";
+		break;
+	default : res = "F";
+	}
+	
+	// 출력내용구성
+	str = `${res}`;
+	
+	//요소찾기
+	document.getElementById("result").innerHTML = str;
+	
+}
+	
+
+</script>
+</head>
+<body>
+	<input type="button" value="점수확인" onclick="sc()">
+	<div id="result"></div>
+</body>
+</html>

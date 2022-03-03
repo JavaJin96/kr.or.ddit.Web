@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jqpro/WebContent/0106/동적태크만들기.html&apos; to &apos;동적태그만들기.html&apos;" description="Rename resource &apos;동적태크만들기.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/0106/동적태크만들기.html" name="동적태그만들기.html" stamp="1641530641999" updateReferences="true"/>
+</session>

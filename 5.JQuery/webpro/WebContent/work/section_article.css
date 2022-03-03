@@ -1,0 +1,29 @@
+@charset "UTF-8";
+	
+
+	
+	section {
+		width : 100%;
+		height : 790px;
+	}
+	article{	
+		padding-top : 10px;
+		font-family: 'Black Han Sans', sans-serif;
+		font-size : 1.5em;
+		text-align: center;
+		display : inline-block;
+		width : 32%;
+		height : 500px;
+		margin-left : 2px;
+		margin-right : 2px;
+		float : left;
+	}
+	img{
+		width : 70%;
+		height : 180px;
+		margin-left : 15%;
+		margin-right : 15%;
+	}
+	p{
+		font-size : 0.8em;
+	}

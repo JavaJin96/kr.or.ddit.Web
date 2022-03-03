@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	table{
+		border : 2px solid blue;
+		empty-cells: show;
+		margin : 20px auto;
+	}
+	td{
+		width : 150px;
+		height : 50px;
+		text-align: center;
+	}
+	caption{
+		margin : 20px;
+		font-size: 2.0em;
+		caption-side: bottom; 
+		color : maroon;
+	}
+	#tab2 th{
+		height : 50px;
+		font-size: 1.5em;
+	}
+	#tab1 tr:nth-child(2n){
+		background : pink;
+	}
+/* 	#tab2 .ttr{
+		background : maroon;
+	} */
+	#tab2 tr:nth-child(2n+1){
+		background : skyblue;
+	}
+/* 	#tab2 tr:nth-child(1){
+		background : white;
+	} */
+	th {
+		background : white;
+	}
+	
+</style>
+</head>
+<body>
+	<table border="1" id="tab1">
+	<caption>~~건행~~</caption>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>				
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td></td>
+		</tr>
+		
+	</table>
+	
+	<table border="1" id="tab2">
+	<caption>~~건행~~</caption>
+	
+		<tr>
+			<th>이름</th>
+			<th>이메일</th>
+			<th>전화번호</th>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>				
+		
+		<tr class="ttr">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		
+		
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td></td>
+		</tr>
+		
+		<tr class="ttr">
+			<td>1</td>
+			<td>2</td>
+			<td></td>
+		</tr>
+		
+	</table>
+</body>
+</html>

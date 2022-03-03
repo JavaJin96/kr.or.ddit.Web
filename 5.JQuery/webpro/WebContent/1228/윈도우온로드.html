@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div{
+		border : 1px solid blue;
+		width : 50%;
+		height : 150px;
+	}
+</style>
+<script>
+	// document에 요소들이 window에 구성이 완료된 후에 function을 실행해라.
+	window.onload = function(){ 
+	today = new Date();
+	
+	a = today.toLocaleString();
+	b = today.toLocaleDateString();
+	c = today.toLocaleTimeString();
+	
+	str = today + "<br>";
+	str += a + "<br>";
+	str += b + "<br>";
+	str += c + "<br>";
+
+	result = document.querySelector('#result');
+	result.innerHTML = str;
+	
+	}
+</script>
+
+</head>
+<body>
+	<div id="result"></div>
+</body>
+</html>
